@@ -1,7 +1,13 @@
 import * as React from "React";
 
-const Header = ({}) => {
+import "../header.css";
 
+const Header = ({}) => {
+    return (
+        <header>
+            
+        </header>
+    );
 };
 
 export default Header;
