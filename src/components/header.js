@@ -1,4 +1,4 @@
-import * as React from "React";
+import * as React from "react";
 
 import Banner from "../images/banner_transparency.png"
 
