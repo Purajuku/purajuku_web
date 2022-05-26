@@ -1,0 +1,40 @@
+.display-big-card {
+    width: 460px;
+    background-color: #fefefe;
+    box-shadow: 0px 0px 16px #00000018;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.big-card-profile {
+    display: flex;
+    align-items: center;
+}
+
+.big-card-profile img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.big-card-profile h4 {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.display-big-card p {
+    margin: 0;
+}
+
+.big-card-description {
+    margin-top: 8px;
+}
+
+.big-card-profile > a > .fa-twitter {
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.big-card-profile > a {
+    color: black;
+}

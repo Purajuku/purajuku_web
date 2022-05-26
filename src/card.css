@@ -1,0 +1,16 @@
+.display-card {
+    background-color: #fefefe;
+    box-shadow: 0px 0px 16px #00000018;
+    width: 300px;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.display-card h4 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.display-card p {
+    margin: 0;
+}

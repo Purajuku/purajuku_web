@@ -1,0 +1,42 @@
+.home-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1000px;
+    gap: 50px 0;
+}
+
+.home-contents > div > h1 {
+    margin-left: 20px;
+}
+
+.card-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px 20px;
+}
+
+.teacher-contents {
+    width: 100%;
+}
+
+.teacher-contents > div > h1 {
+    margin-left: 20px;
+}
+
+.link-contents {
+    width: 100%;
+}
+
+.link-contents > div > h1 {
+    margin-left: 20px;
+}
+
+.link-contents > p {
+    margin-left: 32px;
+}
+

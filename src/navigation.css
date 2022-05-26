@@ -4,11 +4,17 @@
     background-color: #f9f8eb;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 100;
-    box-shadow: 0 0 16px #00000030;
+    box-shadow: 0 0 16px #00000040;
 }
 
-.global-navigation img {
+.global-navigation a {
+    display: inline-block;
+    height: 100%;
+}
+
+.navigation-logo {
     height: 100%;
 }

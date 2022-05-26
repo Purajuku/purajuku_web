@@ -1,0 +1,17 @@
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: all 0.3s;
+}
+
+.main-button:hover {
+    box-shadow: 0px 0px 16px #3a5a5777;
+}
+
+.main-button a {
+    color: white;
+}

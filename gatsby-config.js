@@ -1,13 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: `プラ塾`,
-    authors: [
-      {
-        name: `tererun / てれるん`,
-        summary: `「作りたいものを、好きなだけ。」プログラムを書いている高校生。色んな活動をしてます。`,
-        twitter: `tererun1`
-      }
-    ],
     description: `Bukkit・Spigotプラグイン講座`,
     siteUrl: `https://purajuku.dev/`,
   },
@@ -121,7 +114,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         theme_color: `#5c8d89`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/purajuku_icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

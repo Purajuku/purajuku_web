@@ -1,3 +1,15 @@
-header {
-    background-color: #ff0000;
+.main-header-container {
+    height: 280px;
+    background-color: #5c8d89;
+    position: relative;
+}
+
+.main-header-banner {
+    width: 80vw;
+    min-width: 100px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 3vw));
 }
