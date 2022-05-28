@@ -23,7 +23,6 @@ const Layout = ({ location, children }) => {
     contents = (
       <HomeContents />
     );
-    child = undefined;
   } else {
     contents = (
       <div className="contents-wrapper">
