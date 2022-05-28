@@ -2,12 +2,14 @@ import * as React from "react";
 
 import "../card.css"
 
-const Card = ({ icon, title, description }) => {
+const Card = ({ icon, title, description, url }) => {
     return (
-        <div className="display-card">
-            <h4>{icon} {title}</h4>
-            <p>{description}</p>
-        </div>
+        <a href={url}>
+            <div className="display-card">
+                <h4>{icon} {title}</h4>
+                <p>{description}</p>
+            </div>
+        </a>
     );
 };
 

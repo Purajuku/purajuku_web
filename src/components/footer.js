@@ -8,6 +8,8 @@ const GlobalFooter = () => (
             © {new Date().getFullYear()}
             {` `}
             <a href="https://purajuku.dev/">プラ塾</a>
+            {` ・ `}
+            <a href="/privacy">プライバシーポリシー</a>
         </footer>
     </div>
 );

@@ -4,6 +4,11 @@
     width: 300px;
     padding: 24px;
     border-radius: 32px;
+    transition: all 0.3s;
+}
+
+.display-card:hover {
+    box-shadow: 0px 0px 8px #00000044;
 }
 
 .display-card h4 {

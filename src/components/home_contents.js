@@ -12,12 +12,12 @@ const HomeContents = () => {
             <div className="all-contents">
                 <h1>コンテンツ</h1>
                 <div className="card-contents">
-                    <Card icon="🔰" title="プラ塾とは？" description="初めてプラ塾を受講する方に向けてご案内！"/>
-                    <Card icon="☕" title="はじめてのJava講座" description="Javaも何もわからない方向けのゼロから教えるJava講座！"/>
-                    <Card icon="🌱" title="初級プラグイン講座" description="Javaの基礎を学んだ後は初めてのプラグイン制作！"/>
-                    <Card icon="⌨️" title="中級プラグイン講座" description="ちょっとプラグインづくりになれてきたら次のステップ！"/>
-                    <Card icon="🍙" title="実際に作るシリーズ" description="慣れてきたら色んなものを一緒に作ろう！"/>
-                    <Card icon="🧩" title="マニアックなプラグイン講座" description="かなり深く掘り下げちゃうよん"/>
+                    <Card icon="🔰" title="プラ塾とは？" description="初めてプラ塾を受講する方に向けてご案内！" url="/about/"/>
+                    <Card icon="☕" title="はじめてのJava講座" description="Javaも何もわからない方向けのゼロから教えるJava講座！" url="/java-beginner/"/>
+                    <Card icon="🌱" title="初級プラグイン講座" description="Javaの基礎を学んだ後は初めてのプラグイン制作！" url="/plugin-beginner/"/>
+                    <Card icon="⌨️" title="中級プラグイン講座" description="ちょっとプラグインづくりになれてきたら次のステップ！" url="/plugin-intermediate/"/>
+                    <Card icon="🍙" title="実際に作るシリーズ" description="慣れてきたら色んなものを一緒に作ろう！" url="/make-together/"/>
+                    <Card icon="🧩" title="マニアックなプラグイン講座" description="かなり深く掘り下げちゃうよ" url="/plugin-mania/"/>
                 </div>
             </div>
             <div className="teacher-contents">
@@ -30,8 +30,8 @@ const HomeContents = () => {
                 <h1>リンク</h1>
                 <p>各種リンクはこちらから! 受講者と交流できるDiscordコミュニティもあります。</p>
                 <div className="card-contents">
-                    <MainButton text="プラ塾" color="#5c8d89" url="https://purajuku.dev/"/>
-                    <MainButton text="Discord" color="#5c8d89" url="https://links.purajuku.dev/discord"/>
+                    <MainButton text="Twitter" color="#5c8d89" url="https://www.twitter.com/Purajuku/"/>
+                    <MainButton text="Discord" color="#5c8d89" url="http://links.purajuku.dev/discord/"/>
                 </div>
             </div>
         </div>

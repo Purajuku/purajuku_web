@@ -5,6 +5,10 @@ import MainHeader from "../components/header"
 import GlobalFooter from "../components/footer"
 import HomeContents from "../components/home_contents"
 
+import "@fontsource/noto-sans-jp/400.css"
+import "@fontsource/noto-sans-jp/700.css"
+import "@fontsource/noto-sans-jp/900.css"
+
 const Layout = ({ location, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   const isRootPath = location.pathname === rootPath;
@@ -20,16 +24,19 @@ const Layout = ({ location, children }) => {
       <HomeContents />
     );
     child = undefined;
+  } else {
+    contents = (
+      <div className="contents-wrapper">
+        <main>{child}</main>
+      </div>
+    );
   }
 
   return (
-    <div className="global-wrapper">
+    <div className="global-wrapper" data-is-root-path={isRootPath}>
       <Navigation />
       {header}
       {contents}
-      <div className="contents-wrapper" data-is-root-path={isRootPath}>
-        <main>{child}</main>
-      </div>
       <GlobalFooter />
     </div>
   );

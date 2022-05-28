@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /404/
+
+Sitemap : https://purajuku.dev/sitemap.xml

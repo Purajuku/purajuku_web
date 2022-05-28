@@ -10,7 +10,7 @@ const BigCard = ({ icon, name, mainDescription, subDescription }) => {
             <div className="big-card-profile">
                 <img src={icon} alt={name} />
                 <h4> {name}</h4>
-                <a href="https://twitter.com/tererun1" target="_blank">
+                <a href="https://twitter.com/tererun1">
                     <FontAwesomeIcon icon={faTwitter} />
                 </a>
             </div>
