@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import Card from "../components/card";
-import BigCard from "../components/big_card";
-import MainButton from "../components/button";
+import Card from "./card";
+import BigCard from "./big_card";
+import MainButton from "./button";
 import Seo from './seo';
 
 import "../home_contents.css"
