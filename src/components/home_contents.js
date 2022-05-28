@@ -3,12 +3,14 @@ import * as React from "react";
 import Card from "../components/card";
 import BigCard from "../components/big_card";
 import MainButton from "../components/button";
+import Seo from './seo';
 
 import "../home_contents.css"
 
 const HomeContents = () => {
     return (
         <div className="home-contents">
+            <Seo title='ホーム' />
             <div className="all-contents">
                 <h1>コンテンツ</h1>
                 <div className="card-contents">
