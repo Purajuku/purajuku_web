@@ -3,7 +3,7 @@ import * as React from "react";
 import Card from "./card";
 import BigCard from "./big_card";
 import MainButton from "./button";
-import Seo from './seo';
+import Seo from "./seo";
 
 import "../home_contents.css"
 
