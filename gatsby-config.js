@@ -44,12 +44,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    //{
-    //  resolve: `gatsby-plugin-google-gtag`,
-    //  options: {
-    //    trackingIds: [`G-33B96S5L87`],
-    //  },
-    //},
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [`G-33B96S5L87`],
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
