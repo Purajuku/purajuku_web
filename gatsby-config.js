@@ -121,6 +121,12 @@ module.exports = {
         siteUrl: `https://purajuku.dev/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        sitemapSize: 5000,
+      },
+    },
     `gatsby-plugin-react-helmet`,
   ],
 }
