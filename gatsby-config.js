@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `プラ塾`,
     description: `Bukkit・Spigotプラグイン講座`,
-    siteUrl: `https://purajuku.dev/`,
+    siteUrl: `https://purajuku.dev`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -44,12 +44,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    //{
+    //  resolve: `gatsby-plugin-google-gtag`,
+    //  options: {
+    //    trackingIds: [`G-33B96S5L87`],
+    //  },
+    //},
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -98,7 +98,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Purajuku RSS Feed",
           },
         ],
       },
@@ -110,16 +110,17 @@ module.exports = {
         short_name: `PuraJuku`,
         start_url: `/`,
         background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
         theme_color: `#5c8d89`,
         display: `minimal-ui`,
         icon: `src/images/purajuku_icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://purajuku.dev/`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
