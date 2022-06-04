@@ -9,4 +9,4 @@ description: 初めてプラ塾を受講する方に向けてご案内！
 
 # 講義一覧
 
-[プラ塾ってなんだ](/about/purajuku)
+[Minecraftのプラグインとサーバーソフトウェア](/about/server-plugin)
