@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `プラ塾`,
-    description: `Bukkit・Spigotプラグイン講座`,
-    siteUrl: `https://purajuku.dev`,
+    description: `Minecraft Bukkit・Spigotプラグイン講座`,
+    siteUrl: `https://purajuku.dev/`,
   },
   plugins: [
     `gatsby-plugin-image`,
