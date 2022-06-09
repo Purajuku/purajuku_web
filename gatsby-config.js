@@ -3,6 +3,18 @@ module.exports = {
     title: `プラ塾`,
     description: `Minecraft Bukkit・Spigotプラグイン講座`,
     siteUrl: `https://purajuku.dev/`,
+    keywords: [
+      `Minecraft`,
+      `マインクラフト`,
+      `Bukkit`,
+      `Spigot`,
+      `サーバー`,
+      `Server`,
+      `Plugin`,
+      `プラグイン`,
+      `プラグイン塾`,
+      `プラ塾`,
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -18,7 +18,7 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
         image={image}
-        pathname={this.props.location.pathname}
+        pathname={location.pathname}
       />
       <article
         className="blog-post"
@@ -54,7 +54,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(id: { eq: $id }) {
