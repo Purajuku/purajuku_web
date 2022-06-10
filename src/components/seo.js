@@ -77,8 +77,24 @@ const Seo = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           content: `website`,
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          property: "og:image",
+          content: image,
+        },
+        {
+          property: "og:image:width",
+          content: 1920,
+        },
+        {
+          property: "og:image:height",
+          content: 1080,
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:image",
+          content: image,
         },
         {
           name: `twitter:creator`,
@@ -93,53 +109,6 @@ const Seo = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           content: metaDescription,
         },
       ]
-        .concat(
-          metaImage
-            ? [
-              {
-                property: "og:image",
-                content: image,
-              },
-              {
-                property: "og:image:width",
-                content: metaImage.width,
-              },
-              {
-                property: "og:image:height",
-                content: metaImage.height,
-              },
-              {
-                name: "twitter:card",
-                content: "summary_large_image",
-              },
-              {
-                name: "twitter:image",
-                content: image,
-              },
-            ]
-            : [
-              {
-                property: "og:image",
-                content: image,
-              },
-              {
-                property: "og:image:width",
-                content: 1920,
-              },
-              {
-                property: "og:image:height",
-                content: 1080,
-              },
-              {
-                name: "twitter:card",
-                content: "summary_large_image",
-              },
-              {
-                name: "twitter:image",
-                content: image,
-              },
-            ]
-        )
         .concat(meta)}
     />
   )
