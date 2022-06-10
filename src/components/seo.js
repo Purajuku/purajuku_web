@@ -34,7 +34,8 @@ const Seo = ({ description, lang, meta, image: metaImage, title, pathname }) => 
   const image =
     metaImage && metaImage.src
       ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : `https://i.imgur.com/crjnttV.png`
+      : `https://i.imgur.com/VUcVWqS.png`
+  const logoImage = `https://i.imgur.com/Fa4wihQ.png`;
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
   return (
@@ -118,8 +119,24 @@ const Seo = ({ description, lang, meta, image: metaImage, title, pathname }) => 
             ]
             : [
               {
+                property: "og:image",
+                content: image,
+              },
+              {
+                property: "og:image:width",
+                content: 1920,
+              },
+              {
+                property: "og:image:height",
+                content: 1080,
+              },
+              {
                 name: "twitter:card",
-                content: "summary",
+                content: "summary_large_image",
+              },
+              {
+                name: "twitter:image",
+                content: image,
               },
             ]
         )
