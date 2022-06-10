@@ -113,7 +113,7 @@ const Seo = ({ description, lang, meta, image: metaImage, title, pathname }) => 
               },
               {
                 name: "twitter:image",
-                content: `${image.src}`,
+                content: image,
               },
             ]
             : [
