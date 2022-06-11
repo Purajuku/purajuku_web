@@ -11,3 +11,5 @@ featured: images/featured.png
 # 講義一覧
 
 [Minecraftのプラグインとサーバーソフトウェア](/about/server-plugin)
+
+[プラ塾ってなーんだ](/about/purajuku)
