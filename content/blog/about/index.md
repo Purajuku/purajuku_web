@@ -10,3 +10,5 @@ description: 初めてプラ塾を受講する方に向けてご案内！
 # 講義一覧
 
 [Minecraftのプラグインとサーバーソフトウェア](/about/server-plugin)
+
+[プラ塾ってなーんだ](/about/purajuku)
